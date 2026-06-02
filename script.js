@@ -1,2 +1,2 @@
-personName="Md. Rohan";
+personName=" Rohan";
 console.log(personName);
