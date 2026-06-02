@@ -1,2 +1,6 @@
-personName="Md. Rohan, I am a student";
-console.log(personName);
+personName=prompt();
+personName = personName.replaceAll(".", "");
+personName = personName.replaceAll(" ", "");
+lowerCaseName=personName.toLowerCase();
+userName="@"+lowerCaseName+lowerCaseName.length;
+console.log(userName);
